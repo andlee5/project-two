@@ -49,3 +49,9 @@ h2 {
   color: blue;
   font-size: 200%;
 }
+#game-page
+ul.a {
+  font-size: 1.5em;
+  background-color: yellow;
+  color: purple;
+}
