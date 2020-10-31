@@ -90,19 +90,29 @@ h2 {
 #resume-page
 ul.a {
   background-color: lightgreen;
+  list-style-type: square;
 }
 
 #resume-page
 ul.b {
   background-color: lightgreen;
+  list-style-type: square;
 }
 
 #resume-page
 ul.c {
   background-color: lightgreen;
+  list-style-type: square;
 }
 
 #resume-page
 ul.d {
   background-color: lightgreen;
+  list-style-type: square;
+}
+
+#resume-page
+h3 {
+  font-size: 1.5em;
+  color: red;
 }
