@@ -55,3 +55,8 @@ ul.a {
   background-color: yellow;
   color: purple;
 }
+#game-page
+h3 {
+  color: blue;
+  font-size: 200%;
+}
