@@ -13,7 +13,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #home-page
 body {
   background-color: lightpink;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
 #home-page
@@ -39,7 +39,7 @@ p {
 #game-page
 body {
   background-color: yellow;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
 #game-page
@@ -56,7 +56,7 @@ h2 {
 }
 
 @media screen and (min-width: 30em) {
-#game-page
+  #game-page
   ul.a {
     text-align: center;
     display: block;
@@ -89,7 +89,7 @@ p {
 #resume-page
 body {
   background-color: lightgreen;
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
 #resume-page
@@ -107,7 +107,7 @@ h2 {
 }
 
 @media screen and (min-width: 30em) {
-#resume-page
+  #resume-page
   ul.a {
     text-align: left;
   }
