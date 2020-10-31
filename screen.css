@@ -15,17 +15,20 @@ body {
   background-color: lightpink;
   font-family: arial;
 }
+
 #home-page
 h1 {
   color: red;
   font-size: 300%;
   text-align: center;
 }
+
 #home-page
 h2 {
   color: blue;
   font-size: 200%;
 }
+
 #home-page
 p {
   padding: 2em;
@@ -38,28 +41,44 @@ body {
   background-color: yellow;
   font-family: arial;
 }
+
 #game-page
 h1 {
   color: red;
   font-size: 300%;
   text-align: center;
 }
+
 #game-page
 h2 {
   color: blue;
   font-size: 200%;
 }
+
+@media screen and (min-width: 30em) {
+#game-page
+  ul.a {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
 #game-page
 ul.a {
   font-size: 1.5em;
   background-color: yellow;
   color: purple;
 }
+
 #game-page
 h3 {
   color: blue;
   font-size: 200%;
 }
+
 #game-page
 p {
   color: purple;
@@ -85,6 +104,13 @@ h2 {
   color: red;
   font-size: 200%;
   text-align: center;
+}
+
+@media screen and (min-width: 30em) {
+#resume-page
+  ul.a {
+    text-align: left;
+  }
 }
 
 #resume-page
