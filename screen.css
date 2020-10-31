@@ -57,7 +57,7 @@ h2 {
 
 @media screen and (min-width: 30em) {
   #game-page
-  ul.a {
+  h3 {
     text-align: center;
     display: block;
     margin-left: auto;
@@ -67,16 +67,10 @@ h2 {
 }
 
 #game-page
-ul.a {
+h3 {
   font-size: 1.5em;
   background-color: yellow;
   color: purple;
-}
-
-#game-page
-h3 {
-  color: blue;
-  font-size: 200%;
 }
 
 #game-page
