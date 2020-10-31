@@ -44,3 +44,8 @@ h1 {
   font-size: 300%;
   text-align: center;
 }
+#game-page
+h2 {
+  color: blue;
+  font-size: 200%;
+}
