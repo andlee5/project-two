@@ -10,6 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Home page */
 
+#home-page
 body {
   background-color: lightpink;
   font-family: arial;
@@ -32,6 +33,7 @@ p {
 
 /* Game page */
 
+#game-page
 body {
   background-color: yellow;
   font-family: arial;
