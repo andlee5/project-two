@@ -64,3 +64,25 @@ h3 {
 p {
   color: purple;
 }
+
+/* Resume page */
+
+#resume-page
+body {
+  background-color: lightgreen;
+  font-family: arial;
+}
+
+#resume-page
+h1 {
+  color: red;
+  font-size: 300%;
+  text-align: center;
+}
+
+#resume-page
+h2 {
+  color: red;
+  font-size: 200%;
+  text-align: center;
+}
