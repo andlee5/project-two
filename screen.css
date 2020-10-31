@@ -86,3 +86,23 @@ h2 {
   font-size: 200%;
   text-align: center;
 }
+
+#resume-page
+ul.a {
+  background-color: lightgreen;
+}
+
+#resume-page
+ul.b {
+  background-color: lightgreen;
+}
+
+#resume-page
+ul.c {
+  background-color: lightgreen;
+}
+
+#resume-page
+ul.d {
+  background-color: lightgreen;
+}
