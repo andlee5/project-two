@@ -22,6 +22,8 @@ h1 {
   color: red;
   font-size: 300%;
   text-align: center;
+  padding: 10%;
+  line-height: 100%;
 }
 
 #home-page
@@ -42,19 +44,38 @@ h1 {
   color: red;
   font-size: 300%;
   text-align: center;
-  padding-top: 1.5%;
+  padding-top: 2%;
+  line-height: 100%;
 }
 
 #game-page
 h2 {
   color: blue;
   font-size: 200%;
-  padding-top: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  line-height: 100%;
+}
+
+/*@media screen and (min-width: 30em) {*/
+  #game-page
+  h3,
+  img.a {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/*}*/
+
+#game-page
+h3 {
+  width: 50%;
+  line-height: 100%;
 }
 
 @media screen and (min-width: 30em) {
   #game-page
-  h3,
   img.a {
     text-align: center;
     display: block;
@@ -65,14 +86,21 @@ h2 {
 }
 
 #game-page
+img.a {
+  width: 100%;
+}
+
+#game-page
 h3 {
   font-size: 1.5em;
   color: purple;
+  padding: 1.5%;
 }
 
 #game-page
 p {
   color: purple;
+  padding-top: 1%;
 }
 
 /* Resume page */
@@ -82,6 +110,8 @@ h1 {
   color: red;
   font-size: 300%;
   text-align: center;
+  padding: 5%;
+  line-height: 100%;
 }
 
 #resume-page
@@ -89,41 +119,30 @@ h2 {
   color: red;
   font-size: 200%;
   text-align: center;
+  padding: 10%;
 }
 
-@media screen and (min-width: 30em) {
-  #resume-page
-  ul.a {
-    text-align: left;
-  }
-}
+/*@media screen and (min-width: 30em) {*/
 
 #resume-page
-ul.a {
-  background-color: lightgreen;
-  list-style-type: square;
-}
-
-#resume-page
-ul.b {
-  background-color: lightgreen;
-  list-style-type: square;
-}
-
-#resume-page
-ul.c {
-  background-color: lightgreen;
-  list-style-type: square;
-}
-
-#resume-page
-ul.d {
-  background-color: lightgreen;
-  list-style-type: square;
+li.tel,
+li.email,
+ul.a,
+ul.b,
+li.a,
+li.b,
+li.c,
+li.d,
+li.e,
+li.f {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #resume-page
 h3 {
   font-size: 1.5em;
   color: red;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
