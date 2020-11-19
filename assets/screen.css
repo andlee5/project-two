@@ -42,17 +42,20 @@ h1 {
   color: red;
   font-size: 300%;
   text-align: center;
+  padding-top: 1.5%;
 }
 
 #game-page
 h2 {
   color: blue;
   font-size: 200%;
+  padding-top: 1%;
 }
 
 @media screen and (min-width: 30em) {
   #game-page
-  h3 {
+  h3,
+  img.a {
     text-align: center;
     display: block;
     margin-left: auto;
