@@ -10,10 +10,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Home page */
 
-#home-page
-body {
-  background-color: lightpink;
+html {
+  background-color: #C6D8AF;
   font-family: arial, sans-serif;
+  font-size: 100%;
+  line-height: 115%;
 }
 
 #home-page
@@ -35,12 +36,6 @@ p {
 }
 
 /* Game page */
-
-#game-page
-body {
-  background-color: yellow;
-  font-family: arial, sans-serif;
-}
 
 #game-page
 h1 {
@@ -79,12 +74,6 @@ p {
 }
 
 /* Resume page */
-
-#resume-page
-body {
-  background-color: lightgreen;
-  font-family: arial, sans-serif;
-}
 
 #resume-page
 h1 {
