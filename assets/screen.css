@@ -23,7 +23,7 @@ ul {
   padding: 0;
   width: 7em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
 }
 
 #home-page
@@ -32,7 +32,7 @@ li {
   color: red;
   padding: 1em;
   text-align: center;
-  border: .25em solid #90BEDE;
+  border: 0.25em solid #90BEDE;
 }
 
 #home-page
@@ -75,7 +75,7 @@ ul {
   padding: 0;
   width: 7em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
 }
 
 #game-page
@@ -84,7 +84,7 @@ li {
   color: red;
   padding: 1em;
   text-align: center;
-  border: .25em solid #90BEDE;
+  border: 0.25em solid #90BEDE;
 }
 
 #game-page
@@ -159,7 +159,7 @@ ul.nav {
   padding: 0;
   width: 7em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
 }
 
 #resume-page
@@ -168,7 +168,7 @@ li.nav {
   color: red;
   padding: 1em;
   text-align: center;
-  border: .25em solid #90BEDE;
+  border: 0.25em solid #90BEDE;
 }
 
 #resume-page
@@ -183,7 +183,7 @@ ul.contact {
   width: 11em;
   height: 5em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
 }
 
 #resume-page
@@ -192,6 +192,8 @@ li.tel {
   display: block;
   padding: 1em;
   text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #resume-page
@@ -201,7 +203,9 @@ ul.b {
   width: 11em;
   height: 5em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
+  padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 #resume-page
@@ -215,10 +219,12 @@ li.city {
 ul.a {
   margin: 0;
   padding: 0;
-  width: 20em;
-  height: 10em;
+  width: 10em;
+  height: 5em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 #resume-page
@@ -236,7 +242,13 @@ ul.exp {
   width: 20em;
   height: 10em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
+}
+
+#resume-page
+li.a {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #resume-page
@@ -255,7 +267,13 @@ ul.skills {
   width: 20em;
   height: 10em;
   background-color: #DFFDFF;
-  border: .5em solid #90BEDE;
+  border: 0.5em solid #90BEDE;
+}
+
+#resume-page
+li.d {
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #resume-page
@@ -286,13 +304,8 @@ h2 {
 
 #resume-page
 li.tel,
-li.email,
-ul.a,
-ul.b,
-li.a,
 li.b,
 li.c,
-li.d,
 li.e,
 li.f {
   padding-top: 5%;
