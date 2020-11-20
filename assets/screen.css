@@ -26,6 +26,13 @@ h1 {
   line-height: 100%;
 }
 
+@media screen and (min-width: 30em) {
+  #home-page
+  h1 {
+    padding: 1%;
+  }
+}
+
 #home-page
 h2 {
   color: blue;
@@ -74,20 +81,21 @@ h3 {
   line-height: 100%;
 }
 
-@media screen and (min-width: 30em) {
-  #game-page
-  img.a {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-}
-
 #game-page
 img.a {
   width: 100%;
+}
+
+@media screen and (min-width: 30em) {
+  #game-page
+  img.a {
+    width: 50%;
+  }
+  #game-page
+  h2.a {
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+  }
 }
 
 #game-page
@@ -122,8 +130,6 @@ h2 {
   padding: 10%;
 }
 
-/*@media screen and (min-width: 30em) {*/
-
 #resume-page
 li.tel,
 li.email,
@@ -137,6 +143,50 @@ li.e,
 li.f {
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+@media screen and (min-width: 30em) {
+  #resume-page
+  h2 {
+    padding: 1%;
+  }
+  #resume-page
+  h3 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  #resume-page
+  li.tel,
+  li.a,
+  li.b,
+  li.c,
+  li.f {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  #resume-page
+  li.email {
+    padding-top: 0%;
+  }
+  #resume-page
+  li.e,
+  li.f {
+    padding-top: 1%;
+  }
+  #resume-page
+  li.f {
+    padding-bottom: 5%;
+  }
+  #resume-page
+  ul.a,
+  ul.b,
+  li.d {
+    padding-top: 0%;
+  }
+  #resume-page
+  ul.b {
+    padding-bottom: 0%;
+  }
 }
 
 #resume-page
