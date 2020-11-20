@@ -29,7 +29,7 @@ ul {
 #home-page
 li {
   display: block;
-  color: 000;
+  color: red;
   padding: 1em;
   text-align: center;
   border: .25em solid #90BEDE;
@@ -38,7 +38,6 @@ li {
 #home-page
 li:hover {
   background-color: #90F3FF;
-  color: white;
 }
 
 #home-page
@@ -82,7 +81,7 @@ ul {
 #game-page
 li {
   display: block;
-  color: 000;
+  color: red;
   padding: 1em;
   text-align: center;
   border: .25em solid #90BEDE;
@@ -91,7 +90,6 @@ li {
 #game-page
 li:hover {
   background-color: #90F3FF;
-  color: white;
 }
 
 #game-page
@@ -167,7 +165,7 @@ ul.nav {
 #resume-page
 li.nav {
   display: block;
-  color: 000;
+  color: red;
   padding: 1em;
   text-align: center;
   border: .25em solid #90BEDE;
@@ -176,7 +174,97 @@ li.nav {
 #resume-page
 li.nav:hover {
   background-color: #90F3FF;
-  color: white;
+}
+
+#resume-page
+ul.contact {
+  margin: 0;
+  padding: 0;
+  width: 11em;
+  height: 5em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#resume-page
+li.email,
+li.tel {
+  display: block;
+  padding: 1em;
+  text-align: left;
+}
+
+#resume-page
+ul.b {
+  margin: 0;
+  padding: 0;
+  width: 11em;
+  height: 5em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#resume-page
+li.city {
+  display: block;
+  padding: 1em;
+  text-align: left;
+}
+
+#resume-page
+ul.a {
+  margin: 0;
+  padding: 0;
+  width: 20em;
+  height: 10em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#resume-page
+p.edu,
+li.edu {
+  display: block;
+  padding: 1em;
+  text-align: left;
+}
+
+#resume-page
+ul.exp {
+  margin: 0;
+  padding: 0;
+  width: 20em;
+  height: 10em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#resume-page
+li.a,
+li.b,
+li.c {
+  display: block;
+  padding: 1em;
+  text-align: left;
+}
+
+#resume-page
+ul.skills {
+  margin: 0;
+  padding: 0;
+  width: 20em;
+  height: 10em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#resume-page
+li.d,
+li.e,
+li.f {
+  display: block;
+  padding: 1em;
+  text-align: left;
 }
 
 #resume-page
