@@ -18,6 +18,30 @@ html {
 }
 
 #home-page
+ul {
+  margin: 0;
+  padding: 0;
+  width: 7em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#home-page
+li {
+  display: block;
+  color: 000;
+  padding: 1em;
+  text-align: center;
+  border: .25em solid #90BEDE;
+}
+
+#home-page
+li:hover {
+  background-color: #90F3FF;
+  color: white;
+}
+
+#home-page
 h1 {
   color: red;
   font-size: 300%;
@@ -45,6 +69,30 @@ p {
 }
 
 /* Game page */
+
+#game-page
+ul {
+  margin: 0;
+  padding: 0;
+  width: 7em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#game-page
+li {
+  display: block;
+  color: 000;
+  padding: 1em;
+  text-align: center;
+  border: .25em solid #90BEDE;
+}
+
+#game-page
+li:hover {
+  background-color: #90F3FF;
+  color: white;
+}
 
 #game-page
 h1 {
@@ -106,6 +154,30 @@ p {
 }
 
 /* Resume page */
+
+#resume-page
+ul.nav {
+  margin: 0;
+  padding: 0;
+  width: 7em;
+  background-color: #DFFDFF;
+  border: .5em solid #90BEDE;
+}
+
+#resume-page
+li.nav {
+  display: block;
+  color: 000;
+  padding: 1em;
+  text-align: center;
+  border: .25em solid #90BEDE;
+}
+
+#resume-page
+li.nav:hover {
+  background-color: #90F3FF;
+  color: white;
+}
 
 #resume-page
 h1 {
