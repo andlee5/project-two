@@ -45,14 +45,14 @@ h1 {
   color: red;
   font-size: 300%;
   text-align: center;
-  padding: 10%;
+  padding: 1em;
   line-height: 100%;
 }
 
 @media screen and (min-width: 30em) {
   #home-page
   h1 {
-    padding: 1%;
+    padding: 1em;
   }
 }
 
