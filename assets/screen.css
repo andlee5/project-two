@@ -323,8 +323,8 @@ li.f {
   }
   #resume-page
   h3 {
-    padding-top: 0em;
-    padding-bottom: 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   #resume-page
   li.tel,
@@ -333,7 +333,7 @@ li.f {
   li.c,
   li.f {
     padding-top: 1.5em;
-    padding-bottom: 0em;
+    padding-bottom: 0.2em;
   }
   #resume-page
   li.email {
@@ -352,11 +352,11 @@ li.f {
   ul.a,
   ul.b,
   li.d {
-    padding-top: 0em;
+    padding-top: 1em;
   }
   #resume-page
   ul.b {
-    padding-bottom: 0em;
+    padding-bottom: 1em;
   }
 }
 
